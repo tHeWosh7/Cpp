@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    height: auto;
+}
+
+.navbar ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+
+}
+
+.navbar ul li {
+    display: block;
+    gap: 25px;
+    list-style: none;
+    align-items: center;
+    padding: 25px;
+    justify-content: space-between;
+    border-radius: 20px;
+}
+
+.navbar ul li:hover {
+    color: white;
+    background-color: black;
+}
+
+/*logo subtitle*/
+
+.sub {
+    color: red;
+    margin: 17px;
+    font-weight: 500;
+}
+
+/*image part*/
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 25px;
+}
+
+.pic {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+}
+
+.colum {
+    margin: 10px 30px;
+}
+
+.pic .colum img {
+
+    width: 357px;
+    height: 315px;
+}
+
+
+
+h3 {
+    color: red;
+    text-align: center;
+    font-family: 'Courier New';
+}
